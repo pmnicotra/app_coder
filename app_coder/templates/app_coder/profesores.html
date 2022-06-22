@@ -1,12 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
-</head>
-<body style="background-color: green;">
-    
-</body>
-</html>
+{% extends 'app_coder/padre.html' %}
+
+{% load static %}
+
+{% block contenido_que_cambia %}
+
+<div style="background-color: rgba(208, 253, 225, 0.62);">
+
+    <h1 style="color: rgb(41, 41, 72);">Profesores</h1>
+    <h3 style="color: rgb(34, 34, 60);">Info de los profesores</h3>
+
+</div>
+
+{% endblock %}
